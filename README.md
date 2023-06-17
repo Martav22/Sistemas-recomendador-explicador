@@ -1,5 +1,5 @@
 # Implementación de un sistema de recomendación con extracción de explicaciones
-A continuación, se va a explicar cómo se han implementado los sistemas de recomendación y de explicaciones. La implementación de ambos sistemas se ha realizado en Python, y se ha creado una clase por cada uno de ellos: `class Recomendador()` y `class Explicaciones()`. También se ha creadoun fichero util.py, con funciones como leer o guardar información, como pueden ser matrices o valoraciones, en un fichero .csv.
+A continuación, se va a explicar cómo se han implementado los sistemas de recomendación y de explicaciones. La implementación de ambos sistemas se ha realizado en Python, y se ha creado una clase por cada uno de ellos: `class Recomendador()` y `class Explicaciones()`. También se ha creado un fichero util.py, con funciones como leer o guardar información, como pueden ser matrices o valoraciones, en un fichero .csv.
 
 ## Sistema recomendador
 En la clase Recomendador se han incluido los métodos de entrenamiento, configuración y evaluación del modelo, así como los usados para obtener los juegos de mesa recomendados dado un usuario. 
