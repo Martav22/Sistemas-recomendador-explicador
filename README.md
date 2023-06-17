@@ -35,3 +35,6 @@ Se han implementado tres funciones, que reciben el identificador del juego recom
 
 ## Tutorial
 En el fichero Tutorial.ipynb se encuentra un ejemplo de cómo usar las librerías explicadas. En el ejemplo, primero se entrena el modelo, y una vez entrenado, se le hace una recomendación de un juego a un usuario en concreto. A partir de esta recomendación, se obtienen sus juegos similares y se extraen las cuatro explicaciones: edad recomendada, número de jugadores, dificultad, y tipos, categorías y mecánicas. Una vez se tienen las explicaciones, se presentan al usuario. Además, se muestra una manera de presentar las explicaciones.
+
+# A tener en cuenta
+A la hora de presentar las explicaciones, la carátula se obtiene de la carpeta "imagenes_games", por lo que si hay un juego similar que no tiene su carátula en esa carpeta, va a dar un error. Se está trabajando para obtener la imagen del portal BGG vía web (ya que las imágenes están en una ruta distinta a la del identificador del juego).
